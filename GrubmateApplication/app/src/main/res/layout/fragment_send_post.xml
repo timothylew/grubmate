@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/vertical_margin"
+    android:layout_marginLeft="@dimen/side_margin"
+    android:layout_marginRight="@dimen/side_margin"
+    android:layout_marginTop="@dimen/vertical_margin"
+    android:orientation="vertical"
+    tools:context="cs310.fidgetspinners.grubmate.ui.SendPostFragment">
+
+    <LinearLayout
+        android:id="@+id/send_post_checklist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/send_post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:src="@drawable/send_white" />
+
+    </LinearLayout>
+
+    <com.facebook.share.widget.ShareButton
+        android:id="@+id/share_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00"
+        android:text="Share to Facebook"
+        android:visibility="visible" />
+
+</LinearLayout>

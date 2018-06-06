@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Grubmate</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="facebook_app_id">118723615485029</string>
+    <string name="fb_login_protocol_scheme">fb118723615485029</string>
+    <string name="GrubMate">temp</string>
+    <string name="hello_rating_fragment">Rate your transaction</string>
+
+</resources>

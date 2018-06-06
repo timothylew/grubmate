@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="types">
+        <item>Homemade</item>
+        <item>Restaurant</item>
+    </string-array>
+    <string-array name="categories">
+        <item>American</item>
+        <item>Chinese</item>
+        <item>Hawaiian</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Mexican</item>
+    </string-array>
+</resources>

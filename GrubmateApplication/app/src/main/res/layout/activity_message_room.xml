@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="@dimen/side_margin"
+    android:paddingLeft="@dimen/side_margin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your messages:"
+        android:layout_gravity="left"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:textStyle="italic"
+        android:id="@+id/yourMessages"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/messageOptions">
+
+    </ListView>
+
+</LinearLayout>

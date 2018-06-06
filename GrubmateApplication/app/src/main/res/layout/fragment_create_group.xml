@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cs310.fidgetspinners.grubmate.ui.CreateGroupFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/vertical_margin"
+        android:paddingTop="@dimen/vertical_margin"
+        android:paddingLeft="@dimen/side_margin"
+        android:paddingRight="@dimen/side_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/groupLinearLayout">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Group Name"
+                android:id="@+id/group_name_edit"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Group!"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@color/white"
+            android:id="@+id/submit_group_button"/>
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

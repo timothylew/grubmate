@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/vertical_margin"
+    android:paddingTop="@dimen/vertical_margin"
+    android:paddingLeft="@dimen/side_margin"
+    android:paddingRight="@dimen/side_margin"
+    tools:context="cs310.fidgetspinners.grubmate.ui.FilterActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select your filters:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"/>
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Closest Location"/>
+        <RadioButton android:id="@+id/earliest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Earliest Available"/>
+        <RadioButton android:id="@+id/latest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latest Available"/>
+        <RadioButton android:id="@+id/dairy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Dairy"/>
+        <RadioButton android:id="@+id/nuts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Nuts"/>
+        <RadioButton android:id="@+id/vege"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vegetarian"/>
+        <RadioButton android:id="@+id/timeRange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time Range"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="0dp">
+        <Button
+            android:id="@+id/create_post_startDate_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Select Start Date"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="0dp">
+        <Button
+            android:id="@+id/create_post_startTime_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Select Start Time"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="0dp">
+        <Button
+            android:id="@+id/create_post_endDate_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:text="Select End Date"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+        <Button
+            android:id="@+id/create_post_endTime_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select End Time"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apply Filters"
+        android:id="@+id/apply_filters"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@color/white"
+        android:layout_gravity="bottom" />
+</LinearLayout>

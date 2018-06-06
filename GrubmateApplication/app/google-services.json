@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "332892964940",
+    "firebase_url": "https://grubmate-c4429.firebaseio.com",
+    "project_id": "grubmate-c4429",
+    "storage_bucket": "grubmate-c4429.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332892964940:android:3b56f2bc973afae1",
+        "android_client_info": {
+          "package_name": "cs310.fidgetspinners.grubmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332892964940-7u1mjgq3b9gpq82pp15o7dq0dtap622v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cs310.fidgetspinners.grubmate",
+            "certificate_hash": "fbc015694612f8b5ec69695c19b293cc1f9cbdee"
+          }
+        },
+        {
+          "client_id": "332892964940-phf2scej4js5rtck45tp5hrn7pq8epbd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cs310.fidgetspinners.grubmate",
+            "certificate_hash": "cfc7cff54654a8493a4fc9795f691abe8fd5a387"
+          }
+        },
+        {
+          "client_id": "332892964940-409ac3odi69rrl5dt8drptqnurctt8rk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_TDTKpQJVLlV8w6Qoh0MDKQvQBYh9rDY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332892964940-409ac3odi69rrl5dt8drptqnurctt8rk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

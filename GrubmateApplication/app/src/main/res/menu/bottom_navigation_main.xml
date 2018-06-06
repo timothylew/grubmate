@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bottom_feed"
+        android:enabled="true"
+        android:icon="@drawable/feed"
+        android:title="Feed"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/bottom_notifications"
+        android:enabled="true"
+        android:icon="@drawable/notification"
+        android:title="Notifications"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/bottom_groups"
+        android:enabled="true"
+        android:icon="@drawable/group"
+        android:title="Groups"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/bottom_subscriptions"
+        android:enabled="true"
+        android:icon="@drawable/add_alert"
+        android:title="Subscriptions"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/bottom_profile"
+        android:enabled="true"
+        android:icon="@drawable/account"
+        android:title="Profile"
+        app:showAsAction="ifRoom" />
+</menu>

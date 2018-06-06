@@ -1,0 +1,180 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cs310.fidgetspinners.grubmate.ui.FeedFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageButton
+                android:layout_width="70dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="70dp"
+                android:id="@+id/chinesefood"
+                android:src="@drawable/chinesefood"
+                android:adjustViewBounds="true"
+                android:background="@drawable/circle"
+                android:scaleType="fitCenter"/>
+            <!-- chinese food by Michael Wohlwend from the Noun Project -->
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/japanesefood"
+                android:src="@drawable/japanesefood"
+                android:background="@drawable/circle"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter" />
+            <!-- Sushi by Xela Ub from the Noun Project -->
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/mexicanfood"
+                android:src="@drawable/mexicanfood"
+                android:background="@drawable/circle"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter" />
+            <!-- Taco by Jessica Sugerman from the Noun Project -->
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/koreanfood"
+                android:src="@drawable/koreanfood"
+                android:background="@drawable/circle"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter" />
+            <!-- Ramen by Becca O'Shea from the Noun Project -->
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/americanfood"
+                android:src="@drawable/americanfood"
+                android:background="@drawable/circle"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter" />
+            <!-- Burger by Royyan Wijaya from the Noun Project -->
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/hawaiianfood"
+                android:src="@drawable/hawaiianfood"
+                android:background="@drawable/circle"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:adjustViewBounds="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:scaleType="fitCenter" />
+            <!-- coconut by Joost Haar from the Noun Project -->
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/italianfood"
+                android:src="@drawable/italianfood"
+                android:background="@drawable/circle"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:adjustViewBounds="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:scaleType="fitCenter" />
+            <!-- slice of pizza by Denis Shumaylov from the Noun Project -->
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Active Recent Transactions:"
+        android:layout_gravity="center"
+        android:id="@+id/recentTransactionsLabel"
+        android:gravity="center"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2.65"
+        android:id="@+id/feed_activePosts"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        ></ListView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Posts:"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/feedView">
+    </ListView>
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/map_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        android:src="@drawable/google_map"
+        app:backgroundTint="@color/colorPrimary" />
+
+</android.support.design.widget.CoordinatorLayout>

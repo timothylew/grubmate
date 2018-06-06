@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cs310.fidgetspinners.grubmate.ui.GroupFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Manage Groups"
+        android:layout_marginBottom="60dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:textSize="28sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:id="@+id/groupListLayout">
+        <Button
+            android:id="@+id/create_group_button"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/colorAccent"
+            android:background="@drawable/shape"
+            android:textColor="@color/colorPrimary"
+            android:text="Create Group"/>
+        <Button
+            android:id="@+id/edit_group_button"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/shape"
+            android:text="Edit Group"/>
+        <Button
+            android:id="@+id/delete_group_button"
+            android:layout_width="170dp"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:layout_gravity="center"
+            android:text="Delete Group"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Groups"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+</LinearLayout>

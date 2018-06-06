@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_marginBottom="@dimen/vertical_margin"
+    android:layout_marginTop="@dimen/vertical_margin"
+    android:layout_marginLeft="@dimen/side_margin"
+    android:layout_marginRight="@dimen/side_margin">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_weight="1" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name - this is a post snippet"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:id="@+id/postName" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name - this is a post snippet"
+            android:gravity="left"
+            android:layout_weight="1"
+            android:id="@+id/userName"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rating"
+            android:gravity="left"
+            android:layout_weight="1"
+            android:id="@+id/rating_snippet"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:gravity="left"
+            android:layout_weight="1"
+            android:id="@+id/snippet_location"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/post_snippet_image"
+        android:layout_width="124dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/view_snippet_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="View details"
+            android:textColor="@color/colorAccent"
+            style="?android:attr/borderlessButtonStyle"/>
+    </LinearLayout>
+
+
+</LinearLayout>
